@@ -1,0 +1,93 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap'); */
+html{
+    font-size: 62.5%;
+}
+body{
+margin:0;
+font-size:1rem;
+font-family:'Lato',sans-serif;
+color:#2e354f;
+}
+.section-one{
+    font-size: 2rem;
+}
+
+ul{
+    /*1.5em =150% */
+    font-size: 1.5rem;
+}
+
+/* li{
+    font-size: 1.5rem;
+} */
+h1,h2,strong{
+    font-weight: 900;
+}
+/***Typography****/
+
+h1{
+    font-size: 3rem;
+    margin: 0;
+}
+h2{
+    font-size: 2rem;
+    color: #ef5839;
+}
+
+a{
+    color: #ef5839;
+}
+
+a:hover,
+a:focus{
+    color:#d4b44c;
+}
+
+/*****Buttons*****/
+.btn{
+    display: inline-block;
+    padding: 10px 25px;
+    text-decoration: none;
+}
+.btn-accent{
+    background: #ef5439;
+    color: #fff;
+}
+.btn-accent:hover{
+    background: #2e354f;
+    color: #d4b44c;
+}
+
+.btn-white{
+    background: #fff;
+    color: #2e354f;
+}
+
+.btn-white:hover{
+    color:#2e354f;
+    background: #999;
+}
+
+/* layout */
+header{
+    background: #2e354f;
+    padding: 45px 0;
+    color: #fff;
+    /* width: 500px; */
+}
+section{
+    padding: 45px 0;
+}
+.container{
+    max-width: 620px;
+    width: 90%;
+    /* max-width: 620px; //don't effect,if u put this one above the width.*/
+    margin: 0 auto;
+    /* border: 2px solid magenta; */
+}
+.section-two{
+    background: #2e354f;
+    color: #fff;
+}
+
+
